@@ -2,6 +2,16 @@
 
 An archive of the WunderGraph Backend-For-Frontend (BFF) SDK
 
+## GitHub Activity
+
+GitHub activity was archived using [perceval](https://perceval.readthedocs.io/en/latest/perceval/github.html) and [uv](https://docs.astral.sh/uv/):
+
+    uv run --with perceval \
+      -- perceval github wundergraph wundergraph \
+      -t "$(gh auth token)" \
+      -o github-activity/archive.jsonl \
+      --json-line
+
 
 ## License
 
