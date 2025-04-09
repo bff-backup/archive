@@ -1,0 +1,12 @@
+{
+  "name": "@undergraph/archive",
+  "version": "0.0.1",
+  "description": "Archive of artifacts and activity for the sunset @wundergraph/wundergraph repository.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Lar Van Der Jagt <lar@codeconfab.com> (https://codeconfab.com)",
+  "license": "SPDX-License-Identifier: ISC AND Apache-2.0",
+  "packageManager": "pnpm@10.8.0"
+}
