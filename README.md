@@ -2,6 +2,19 @@
 
 An archive of the WunderGraph Backend-For-Frontend (BFF) SDK
 
+
+## Git History
+
+A fork of the original `@wundergraph/wundergraph` monorepo is available at [`@undergraph-dev/undergraph`](https://github.com/undergraph-dev/undergraph).
+
+
+## Release Artifacts
+
+All [tags](https://github.com/undergraph-dev/undergraph/tags) and [releases](https://github.com/undergraph-dev/undergraph/releases) with attached assets have been cloned to the [`@undergraph-dev/undergraph`](https://github.com/undergraph-dev/undergraph) repository with the [Clone GitHub Releases](https://github.com/marketplace/actions/clone-github-releases) action.
+
+Logs from the clone process are available at [./github-activity/clone-releases.log](/github-activity/clone-releases.log).
+
+
 ## GitHub Activity
 
 GitHub activity was archived using [perceval](https://perceval.readthedocs.io/en/latest/perceval/github.html) and [uv](https://docs.astral.sh/uv/):
