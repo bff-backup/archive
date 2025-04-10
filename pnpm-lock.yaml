@@ -6,4 +6,19 @@ settings:
 
 importers:
 
-  .: {}
+  .:
+    dependencies:
+      zx:
+        specifier: ^8.5.2
+        version: 8.5.2
+
+packages:
+
+  zx@8.5.2:
+    resolution: {integrity: sha512-eIxjTkCtlzvDNRhw3RD1gGBPA4nxOTn6PafpKl+MW4eE2jR/u/R6mqq7oyUCXwarM5DSP96kWtq6XkrL2kSFrg==}
+    engines: {node: '>= 12.17.0'}
+    hasBin: true
+
+snapshots:
+
+  zx@8.5.2: {}
