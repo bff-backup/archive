@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "Archive of artifacts and activity for the sunset @wundergraph/wundergraph repository.",
   "scripts": {
+    "archive-packages": "./archive-packages.mjs ../wundergraph",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
