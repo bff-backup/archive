@@ -8,5 +8,8 @@
   "keywords": [],
   "author": "Lar Van Der Jagt <lar@codeconfab.com> (https://codeconfab.com)",
   "license": "SPDX-License-Identifier: ISC AND Apache-2.0",
-  "packageManager": "pnpm@10.8.0"
+  "packageManager": "pnpm@10.8.0",
+  "dependencies": {
+    "zx": "^8.5.2"
+  }
 }
